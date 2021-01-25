@@ -45,7 +45,7 @@ const gamesController = {
         db.query("DELETE FROM games WHERE id = ?",[id], (err, result) =>{
             if(err) res.send("this Game Introuvable");
             else
-            res.json({msg: "Tama Nake7 Bi Naja7"})
+            res.json({msg: "Game Deleted"})
         })
     }
 }

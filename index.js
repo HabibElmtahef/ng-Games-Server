@@ -13,5 +13,5 @@ app.use('/api', require('./routes/gamesRoutes'))
 
 
 app.listen(4000, () => {
-    console.log('Ana M9aweeeeeed')
+    console.log('Server Running At 4000')
 })
